@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Leasing i Dotacje dla Przedsiębiorców - FinansPro",
+  title: "Glow Leasing - Leasing i Dotacje dla Przedsiębiorców",
   description: "Leasing i dotacje unijne dla firm. Profesjonalne wsparcie finansowe dla przedsiębiorców.",
 };
 

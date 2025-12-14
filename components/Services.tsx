@@ -5,40 +5,70 @@ import styles from './Services.module.css';
 const Services: React.FC = () => {
   const services = [
     {
-      icon: '🚗',
-      title: 'Leasing Operacyjny',
-      description: 'Finansowanie samochodów, maszyn i urządzeń bez obciążania bilansu firmy. Elastyczne warunki dopasowane do Twoich potrzeb.',
-      features: ['Brak wkładu własnego', 'Pełne odliczenie VAT', 'Szybka akceptacja', 'Korzystne raty']
+      icon: '🏥',
+      title: 'Finansowanie Aparatury Medycznej',
+      description: 'Specjalizujemy się w strukturyzowaniu finansowania na profesjonalną aparaturę zabiegową we współpracy z renomowanym dostawcą gus-medic.pl.',
+      features: [
+        'Finansowanie 0% RRSO bez ukrytych kosztów', 
+        'Do 1,5 mln zł na podstawie dyplomu', 
+        'Bez weryfikacji BIK i KRD', 
+        'Przyspieszona ścieżka dla młodych lekarzy'
+      ]
     },
     {
-      icon: '💼',
-      title: 'Leasing Finansowy',
-      description: 'Idealne rozwiązanie dla firm chcących stać się właścicielami sprzętu. Korzystne warunki i możliwość wykupu.',
-      features: ['Własność po leasingu', 'Odpisyw amortyzacyjne', 'Elastyczne okresy', 'Niskie opłaty końcowe']
+      icon: '💰',
+      title: 'Leasing Operacyjny',
+      description: 'Optymalne rozwiązanie finansowe dla lekarzy dążących do rozwoju praktyki przy zachowaniu płynności finansowej.',
+      features: [
+        '0% oprocentowanie nominalne', 
+        'Zachowanie rezerw kapitałowych', 
+        'Korzyści podatkowe', 
+        'Elastyczne harmonogramy spłat'
+      ]
     },
     {
       icon: '🎯',
-      title: 'Dotacje Unijne',
-      description: 'Pomożemy w pozyskaniu środków z UE na rozwój Twojej firmy. Profesjonalne wsparcie na każdym etapie.',
-      features: ['Analiza możliwości', 'Przygotowanie wniosku', 'Obsługa projektu', 'Rozliczenie dotacji']
+      title: 'Dotacje i Programy Wsparcia',
+      description: 'Prowadzimy systematyczny monitoring wszystkich programów dotacyjnych dedykowanych branży medycznej.',
+      features: [
+        'Dotacje na technologie medyczne', 
+        'Wsparcie cyfryzacji placówek', 
+        'Granty badawczo-rozwojowe', 
+        'Programy regionalne'
+      ]
     },
     {
-      icon: '💡',
-      title: 'Dotacje Krajowe',
-      description: 'Wsparcie w uzyskaniu dotacji z programów krajowych i regionalnych. Maksymalizujemy Twoje szanse.',
-      features: ['Doradztwo', 'Dokumentacja', 'Monitoring', 'Pełne wsparcie']
+      icon: '💎',
+      title: 'Warunki Współpracy',
+      description: 'Przejrzyste zasady – pełna transparentność procesu finansowania z gwarancją bezpieczeństwa.',
+      features: [
+        'Zaliczka 500 zł z gwarancją zwrotu', 
+        'Pełna transparentność', 
+        'Formalne zobowiązanie zakupu', 
+        'Jasne warunki na każdym etapie'
+      ]
     },
     {
-      icon: '🏭',
-      title: 'Finansowanie Inwestycji',
-      description: 'Kompleksowe rozwiązania finansowe dla większych przedsięwzięć biznesowych i rozwoju firmy.',
-      features: ['Duże kwoty', 'Długie okresy', 'Indywidualne warunki', 'Szybka decyzja']
+      icon: '🚀',
+      title: 'Program dla Młodych Specjalistów',
+      description: 'Dedykowane warunki preferencyjne dla absolwentów medycyny rozpoczynających praktykę.',
+      features: [
+        'Uproszczona weryfikacja', 
+        'Finansowanie 0% na start', 
+        'Bez historii kredytowej', 
+        'Kompleksowa obsługa procesu'
+      ]
     },
     {
       icon: '📊',
       title: 'Doradztwo Finansowe',
-      description: 'Profesjonalne doradztwo w zakresie optymalizacji finansów i wyboru najlepszych rozwiązań dla firmy.',
-      features: ['Analiza finansowa', 'Planowanie', 'Optymalizacja kosztów', 'Strategia rozwoju']
+      description: 'Profesjonalna analiza możliwości finansowych i rekomendacja optymalnych instrumentów finansowania.',
+      features: [
+        'Analiza w 24 godziny', 
+        'End-to-end obsługa', 
+        'Głęboka specjalizacja branżowa', 
+        'Potwierdzony track record'
+      ]
     }
   ];
 
@@ -71,9 +101,9 @@ const Services: React.FC = () => {
           transition={{ duration: 0.6 }}
           className={styles.header}
         >
-          <h2 className={styles.title}>Nasze Usługi</h2>
+          <h2 className={styles.title}>Specjalistyczne Finansowanie Medyczne</h2>
           <p className={styles.subtitle}>
-            Kompleksowe rozwiązania finansowe dla Twojej firmy
+            Nowoczesna medycyna wymaga zaawansowanych rozwiązań technologicznych i finansowych
           </p>
         </motion.div>
 

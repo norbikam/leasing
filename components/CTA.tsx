@@ -19,11 +19,38 @@ const CTA: React.FC = () => {
           className={styles.content}
         >
           <h2 className={styles.title}>
-            Gotowy na Rozwój Swojej Firmy?
+            Gotowy na Rozwój Swojej Praktyki Medycznej?
           </h2>
           <p className={styles.subtitle}>
-            Umów się na bezpłatną konsultację i dowiedz się, jak możemy Ci pomóc
+            Kompleksowa analiza możliwości finansowych w 24 godziny
           </p>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            style={{ 
+              marginTop: '2rem', 
+              marginBottom: '2rem',
+              padding: '1.5rem', 
+              background: 'linear-gradient(135deg, rgba(102,126,234,0.15) 0%, rgba(118,75,162,0.15) 100%)',
+              borderRadius: '12px',
+              border: '2px solid rgba(102,126,234,0.3)'
+            }}
+          >
+            <h3 style={{ fontSize: '1.3rem', marginBottom: '1rem', color: '#667eea', textAlign: 'center' }}>
+              🚀 Inicjacja Współpracy
+            </h3>
+            <p style={{ lineHeight: '1.8', color: '#555', textAlign: 'center', marginBottom: '0.5rem' }}>
+              <strong>Zaliczka 500 zł</strong> – pierwszy krok ku realizacji Twojej wizji
+            </p>
+            <ul style={{ listStyle: 'none', padding: 0, color: '#666' }}>
+              <li style={{ padding: '0.5rem 0' }}>✓ Profesjonalna analiza finansowa i rekomendacje</li>
+              <li style={{ padding: '0.5rem 0' }}>✓ Gwarancja pełnego zwrotu przy negatywnej decyzji</li>
+              <li style={{ padding: '0.5rem 0' }}>✓ Formalne zobowiązanie do realizacji zakupu</li>
+            </ul>
+          </motion.div>
 
           <div className={styles.form}>
             <div className={styles.inputGroup}>
@@ -46,16 +73,15 @@ const CTA: React.FC = () => {
               />
               <select className={styles.input}>
                 <option>Wybierz usługę</option>
+                <option>Finansowanie aparatury medycznej 0%</option>
                 <option>Leasing operacyjny</option>
-                <option>Leasing finansowy</option>
-                <option>Dotacje unijne</option>
-                <option>Dotacje krajowe</option>
-                <option>Finansowanie inwestycji</option>
+                <option>Dotacje i programy wsparcia</option>
+                <option>Program dla młodych specjalistów</option>
                 <option>Doradztwo finansowe</option>
               </select>
             </div>
             <textarea 
-              placeholder="Opisz swoją potrzebę (opcjonalnie)" 
+              placeholder="Opisz swoją potrzebę – jaka aparatura, jaki zakres finansowania (opcjonalnie)" 
               className={styles.textarea}
               rows={4}
             ></textarea>
@@ -71,24 +97,26 @@ const CTA: React.FC = () => {
 
           <div className={styles.contactInfo}>
             <div className={styles.contactItem}>
-              <span className={styles.contactIcon}>📞</span>
               <div>
                 <div className={styles.contactLabel}>Telefon</div>
-                <div className={styles.contactValue}>+48 123 456 789</div>
+                <div className={styles.contactValue}>+48 510 255 279</div>
               </div>
             </div>
             <div className={styles.contactItem}>
-              <span className={styles.contactIcon}>✉️</span>
               <div>
                 <div className={styles.contactLabel}>E-mail</div>
-                <div className={styles.contactValue}>kontakt@finanspro.pl</div>
+                <div className={styles.contactValue}>kontakt@glowleasing.pl</div>
               </div>
             </div>
             <div className={styles.contactItem}>
-              <span className={styles.contactIcon}>📍</span>
               <div>
-                <div className={styles.contactLabel}>Adres</div>
-                <div className={styles.contactValue}>ul. Przykładowa 123, Warszawa</div>
+                <div className={styles.contactLabel}>Partner</div>
+                <div className={styles.contactValue}>
+                  <a href="https://gus-medic.pl" target="_blank" rel="noopener noreferrer" 
+                     style={{ color: '#667eea', textDecoration: 'none' }}>
+                    gus-medic.pl
+                  </a>
+                </div>
               </div>
             </div>
           </div>

@@ -5,57 +5,62 @@ import styles from './Benefits.module.css';
 const Benefits: React.FC = () => {
   const benefits = [
     {
-      icon: '⚡',
-      title: 'Szybka realizacja',
-      description: 'Decyzja w 24 godziny. Sprawnie przeprowadzimy cały proces od konsultacji do finalizacji.'
+      icon: '💰',
+      title: 'Finansowanie 0% RRSO',
+      description: 'Bez ukrytych kosztów, prowizji i opłat manipulacyjnych na naszą aparaturę zabiegową. Przejrzyste warunki kontraktowe.'
     },
     {
       icon: '🎯',
-      title: 'Wysoka skuteczność',
-      description: '98% naszych wniosków o dotacje zostaje zaakceptowanych dzięki doświadczeniu zespołu.'
+      title: 'Zaliczka 500 zł',
+      description: 'Inicjacja procesu z gwarancją pełnego zwrotu przy negatywnej decyzji kredytowej. Mechanizm zabezpieczenia dla obu stron.'
     },
     {
-      icon: '💰',
-      title: 'Najlepsze warunki',
-      description: 'Współpracujemy z wieloma instytucjami finansowymi, aby znaleźć najkorzystniejsze rozwiązanie.'
+      icon: '✅',
+      title: 'Gwarancja zwrotu kapitału',
+      description: 'Pełna transparentność – w przypadku odmowy finansowania zaliczka podlega natychmiastowemu zwrotowi.'
     },
     {
-      icon: '🤝',
-      title: 'Pełne wsparcie',
-      description: 'Jesteśmy z Tobą na każdym etapie - od analizy potrzeb po finalne rozliczenie.'
+      icon: '⚡',
+      title: 'End-to-end obsługa',
+      description: 'Pełny zakres usług od analizy finansowej po finalizację transakcji. Minimalizacja czasu procesowania wniosków.'
     },
     {
-      icon: '📋',
-      title: 'Bez ukrytych kosztów',
-      description: 'Transparentne warunki współpracy. Wiesz dokładnie, za co płacisz.'
+      icon: '🏥',
+      title: 'Głęboka specjalizacja',
+      description: 'Kompleksowe zrozumienie potrzeb sektora medycznego i współpraca z renomowanymi dostawcami aparatury.'
     },
     {
       icon: '🔒',
-      title: 'Bezpieczeństwo',
-      description: 'Twoje dane są u nas bezpieczne. Działamy zgodnie z najwyższymi standardami.'
+      title: 'Standardy transparentności',
+      description: 'Jasne i czytelne zasady współpracy bez ukrytych klauzul. Potwierdzony track record – ponad 200 projektów.'
     }
   ];
 
   const process = [
     {
       step: '01',
-      title: 'Konsultacja',
-      description: 'Bezpłatna analiza Twoich potrzeb i możliwości finansowych.'
+      title: 'Wpłata zaliczki',
+      description: '500 zł na uruchomienie procedury – refundowana przy odmowie finansowania.'
     },
     {
       step: '02',
-      title: 'Dobór rozwiązania',
-      description: 'Przygotowanie oferty dopasowanej do specyfiki Twojej firmy.'
+      title: 'Due diligence finansowe',
+      description: 'Bezpłatna konsultacja i profesjonalna ocena zdolności finansowej w 24h.'
     },
     {
       step: '03',
-      title: 'Dokumentacja',
-      description: 'Pomoc w przygotowaniu niezbędnych dokumentów i formalności.'
+      title: 'Emisja faktury proforma',
+      description: 'Przygotowanie dokumentacji zakupu aparatury medycznej zgodnie z Twoimi potrzebami.'
     },
     {
       step: '04',
-      title: 'Realizacja',
-      description: 'Otrzymanie środków finansowych i zakończenie procesu.'
+      title: 'Strukturyzacja finansowania',
+      description: 'Dobór optymalnego instrumentu finansowego 0% RRSO i kompletacja dokumentacji.'
+    },
+    {
+      step: '05',
+      title: 'Finalizacja transakcji',
+      description: 'Podpisanie umów i realizacja zakupu zgodnie z fakturą proforma.'
     }
   ];
 
@@ -70,9 +75,9 @@ const Benefits: React.FC = () => {
             transition={{ duration: 0.6 }}
             className={styles.header}
           >
-            <h2 className={styles.title}>Dlaczego Warto z Nami Współpracować?</h2>
+            <h2 className={styles.title}>Nasze Przewagi Konkurencyjne</h2>
             <p className={styles.subtitle}>
-              Profesjonalizm, doświadczenie i indywidualne podejście do każdego klienta
+              Doświadczenie i specjalizacja, które generują rezultaty
             </p>
           </motion.div>
 
@@ -92,6 +97,30 @@ const Benefits: React.FC = () => {
               </motion.div>
             ))}
           </div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            className={styles.importantNote}
+            style={{ 
+              marginTop: '3rem', 
+              padding: '2rem', 
+              background: 'linear-gradient(135deg, rgba(255,193,7,0.1) 0%, rgba(255,87,34,0.1) 100%)',
+              borderLeft: '4px solid #ff9800',
+              borderRadius: '8px'
+            }}
+          >
+            <h3 style={{ fontSize: '1.2rem', marginBottom: '1rem', color: '#ff9800' }}>
+              ⚠️ Klauzula istotna
+            </h3>
+            <p style={{ lineHeight: '1.8', color: '#666' }}>
+              Po uzyskaniu akceptacji finansowania i jednostronnym odstąpieniu od realizacji zakupu 
+              określonego w fakturze proforma, zaliczka w wysokości 500 zł zostaje zatrzymana jako 
+              uzasadniony koszt manipulacyjny.
+            </p>
+          </motion.div>
         </div>
       </section>
 
@@ -104,9 +133,9 @@ const Benefits: React.FC = () => {
             transition={{ duration: 0.6 }}
             className={styles.header}
           >
-            <h2 className={styles.title}>Jak Wygląda Współpraca?</h2>
+            <h2 className={styles.title}>Proces Obsługi Klienta</h2>
             <p className={styles.subtitle}>
-              Prosty, przejrzysty proces w czterech krokach
+              Prosty, przejrzysty proces w pięciu krokach
             </p>
           </motion.div>
 

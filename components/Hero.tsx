@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className={styles.badge}
           >
-            ✨ Zaufało nam ponad 500 firm w Polsce
+            ✨ Ponad 200 skutecznie zrealizowanych projektów finansowych
           </motion.div>
 
           <motion.h1
@@ -42,8 +42,8 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
             className={styles.title}
           >
-            Rozwijaj Biznes z Leasingiem
-            <span className={styles.highlight}> i Dotacjami</span>
+            Finanse medyczne bez granic
+            <span className={styles.highlight}> – Twoja praktyka, nasze doświadczenie</span>
           </motion.h1>
 
           <motion.p
@@ -52,45 +52,56 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className={styles.subtitle}
           >
-            Kompleksowe wsparcie finansowe dla przedsiębiorców. 
-            Pomożemy Ci uzyskać leasing oraz dotacje unijne na rozwój Twojej firmy.
+            Wspieramy lekarzy i placówki medyczne w pozyskiwaniu finansowania na rozwój praktyki. 
+            Leasing operacyjny, dotacje publiczne i kredyty specjalistyczne – kompleksowe rozwiązania 
+            finansowe w jednym miejscu.
           </motion.p>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.5 }}
+            className={styles.badge}
+            style={{ marginTop: '1.5rem', marginBottom: '1.5rem', background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', fontSize: '1.1rem', padding: '1rem 2rem', color: '#fff' }}
+          >
+            🎯 FINANSOWANIE 0% bez ukrytych kosztów na naszą aparaturę zabiegową
+          </motion.div>
 
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.5 }}
+            transition={{ duration: 0.8, delay: 0.6 }}
             className={styles.buttons}
           >
             <button onClick={scrollToContact} className={styles.primaryButton}>
-              Umów bezpłatną konsultację
+              Bezpłatna konsultacja finansowa
               <span className={styles.arrow}>→</span>
             </button>
             <button onClick={() => {
               const element = document.getElementById('uslugi');
               if (element) element.scrollIntoView({ behavior: 'smooth' });
             }} className={styles.secondaryButton}>
-              Poznaj nasze usługi
+              Zobacz możliwości
             </button>
           </motion.div>
 
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 0.7 }}
+            transition={{ duration: 1, delay: 0.8 }}
             className={styles.stats}
           >
             <div className={styles.stat}>
-              <div className={styles.statNumber}>500+</div>
-              <div className={styles.statLabel}>Zadowolonych klientów</div>
+              <div className={styles.statNumber}>Do 1,5 mln</div>
+              <div className={styles.statLabel}>Finansowanie na dyplom</div>
             </div>
             <div className={styles.stat}>
-              <div className={styles.statNumber}>50 mln+</div>
-              <div className={styles.statLabel}>Pozyskanych dotacji</div>
+              <div className={styles.statNumber}>0% RRSO</div>
+              <div className={styles.statLabel}>Na aparaturę zabiegową</div>
             </div>
             <div className={styles.stat}>
-              <div className={styles.statNumber}>98%</div>
-              <div className={styles.statLabel}>Skuteczność wniosków</div>
+              <div className={styles.statNumber}>Bez BIK/KRD</div>
+              <div className={styles.statLabel}>Dla absolwentów medycyny</div>
             </div>
           </motion.div>
         </motion.div>

@@ -29,20 +29,19 @@ const Header: React.FC = () => {
       <div className={styles.container}>
         <button onClick={()=>scrollTo(0,0)} className={styles.logoButton}>
         <div className={styles.logo}>
-          <span className={styles.logoIcon}>💼</span>
-          <span className={styles.logoText}>FinansPro</span>
+          <span className={styles.logoText}>Glow Leasing</span>
         </div>
         </button>
 
         <nav className={`${styles.nav} ${mobileMenuOpen ? styles.navOpen : ''}`}>
           <button onClick={() => scrollToSection('uslugi')} className={styles.navLink}>
-            Usługi
+            Finansowanie
           </button>
           <button onClick={() => scrollToSection('korzyści')} className={styles.navLink}>
-            Korzyści
+            Przewagi
           </button>
           <button onClick={() => scrollToSection('proces')} className={styles.navLink}>
-            Jak to działa
+            Proces
           </button>
           <button onClick={() => scrollToSection('kontakt')} className={styles.navLink}>
             Kontakt

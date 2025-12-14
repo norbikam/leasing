@@ -13,10 +13,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>FinansPro - Leasing i Dotacje dla Przedsiębiorców</title>
-        <meta name="description" content="Kompleksowe wsparcie finansowe dla przedsiębiorców. Pomożemy Ci uzyskać leasing oraz dotacje unijne na rozwój Twojej firmy." />
+        <title>MedFinanse Pro - Finansowanie Medyczne 0% dla Lekarzy</title>
+        <meta name="description" content="Specjalistyczne finansowanie medyczne dla lekarzy i placówek. Do 1,5 mln zł na dyplom, 0% RRSO, leasing operacyjny, dotacje. Bez weryfikacji BIK/KRD." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="keywords" content="leasing, dotacje, finansowanie, przedsiębiorcy, leasing operacyjny, dotacje unijne" />
+        <meta name="keywords" content="finansowanie medyczne, leasing aparatury medycznej, dotacje medyczne, finansowanie 0%, gus-medic, leasing dla lekarzy, kredyt dla lekarzy" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

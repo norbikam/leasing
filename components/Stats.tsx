@@ -80,7 +80,7 @@ const Stats: React.FC = () => {
         >
           <h2 className={styles.title}>Liczby Mówią Same Za Siebie</h2>
           <p className={styles.subtitle}>
-            Nasze osiągnięcia i zaufanie klientów
+            Potwierdzony track record w finansowaniu medycznym
           </p>
         </motion.div>
 
@@ -91,59 +91,59 @@ const Stats: React.FC = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className={styles.grid}
         >
-          <StatItem end={500} label="Zadowolonych klientów" suffix="+" />
-          <StatItem end={50} label="Milionów złotych dotacji" suffix=" mln+" />
-          <StatItem end={98} label="Skuteczność wniosków" suffix="%" />
-          <StatItem end={10} label="Lat doświadczenia" suffix="+" />
+          <StatItem end={200} label="Zrealizowanych projektów finansowych" suffix="+" />
+          <StatItem end={1.5} label="Milionów zł finansowania na dyplom" suffix=" mln" />
+          <StatItem end={0} label="Procent oprocentowania RRSO" suffix="%" />
+          <StatItem end={24} label="Godziny na analizę finansową" suffix="h" />
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.4 }}
           className={styles.testimonialsSection}
         >
-          <h3 className={styles.testimonialsTitle}>Co Mówią Nasi Klienci</h3>
+          <h3 className={styles.testimonialsTitle}>Opinie Lekarzy</h3>
           
           <div className={styles.testimonials}>
             <div className={styles.testimonial}>
               <div className={styles.quote}>"</div>
               <p className={styles.testimonialText}>
-                Dzięki FinansPro otrzymaliśmy dotację na rozwój firmy w rekordowym czasie. 
-                Profesjonalna obsługa i pełne wsparcie na każdym etapie.
+                Dzięki finansowaniu 0% mogłem wyposażyć gabinet w nowoczesną aparaturę zabiegową bez 
+                obciążania budżetu praktyki. Profesjonalna obsługa i pełna transparentność.
               </p>
               <div className={styles.author}>
-                <div className={styles.authorName}>Anna Kowalska</div>
-                <div className={styles.authorTitle}>CEO, Tech Innovations Sp. z o.o.</div>
+                <div className={styles.authorName}>Dr med. Anna Kowalska</div>
+                <div className={styles.authorTitle}>Dermatolog, Warszawa</div>
               </div>
             </div>
 
             <div className={styles.testimonial}>
               <div className={styles.quote}>"</div>
               <p className={styles.testimonialText}>
-                Leasing floty samochodowej nigdy nie był tak prosty. Elastyczne warunki 
-                i transparentna współpraca. Polecam każdemu przedsiębiorcy!
+                Jako młody lekarz po specjalizacji otrzymałem 1,2 mln zł finansowania tylko na podstawie 
+                dyplomu. Bez historii kredytowej uruchomiłem własny gabinet – to niesamowite!
               </p>
               <div className={styles.author}>
-                <div className={styles.authorName}>Marek Nowak</div>
-                <div className={styles.authorTitle}>Właściciel, Transport Express</div>
+                <div className={styles.authorName}>Lek. med. Marek Nowak</div>
+                <div className={styles.authorTitle}>Chirurg plastyczny</div>
               </div>
             </div>
 
             <div className={styles.testimonial}>
               <div className={styles.quote}>"</div>
               <p className={styles.testimonialText}>
-                Kompleksowe doradztwo i wsparcie w pozyskaniu środków unijnych. 
-                Dzięki nim rozwinęliśmy naszą produkcję i zwiększyliśmy zatrudnienie.
+                Współpraca z gus-medic.pl i MedFinanse Pro pozwoliła mi na rozbudowę kliniki. 
+                Zaliczka 500 zł, transparentne warunki i realizacja w ekspresowym tempie.
               </p>
               <div className={styles.author}>
-                <div className={styles.authorName}>Piotr Wiśniewski</div>
-                <div className={styles.authorTitle}>Dyrektor, Produkcja Plus</div>
+                <div className={styles.authorName}>Dr n. med. Piotr Wiśniewski</div>
+                <div className={styles.authorTitle}>Stomatolog, Kraków</div>
               </div>
             </div>
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );

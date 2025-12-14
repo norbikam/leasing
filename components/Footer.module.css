@@ -49,6 +49,7 @@
 .social {
   display: flex;
   gap: 15px;
+  margin-top: 0.5rem;
 }
 
 .socialLink {

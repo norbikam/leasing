@@ -29,6 +29,7 @@ const Header: React.FC = () => {
       <div className={styles.container}>
         <button onClick={()=>scrollTo(0,0)} className={styles.logoButton}>
         <div className={styles.logo}>
+          <span className={styles.logoIcon}><img src="/glowleasing.png" alt="" /></span>
           <span className={styles.logoText}>Glow Leasing</span>
         </div>
         </button>

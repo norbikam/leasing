@@ -47,6 +47,10 @@
   background: transparent;
 }
 
+.logoIcon img {
+  height: 32px;
+}
+
 .logoText {
   font-family: 'Inter', sans-serif;
   background: transparent;

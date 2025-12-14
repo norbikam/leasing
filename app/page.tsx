@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>MedFinanse Pro - Finansowanie Medyczne 0% dla Lekarzy</title>
+        <title>Glow Leasing - Finansowanie Medyczne 0% dla Lekarzy</title>
         <meta name="description" content="Specjalistyczne finansowanie medyczne dla lekarzy i placówek. Do 1,5 mln zł na dyplom, 0% RRSO, leasing operacyjny, dotacje. Bez weryfikacji BIK/KRD." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="keywords" content="finansowanie medyczne, leasing aparatury medycznej, dotacje medyczne, finansowanie 0%, gus-medic, leasing dla lekarzy, kredyt dla lekarzy" />

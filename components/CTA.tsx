@@ -40,7 +40,7 @@ const CTA: React.FC = () => {
             }}
           >
             <h3 style={{ fontSize: '1.3rem', marginBottom: '1rem', color: '#667eea', textAlign: 'center' }}>
-              🚀 Inicjacja Współpracy
+             Inicjacja Współpracy
             </h3>
             <p style={{ lineHeight: '1.8', color: '#555', textAlign: 'center', marginBottom: '0.5rem' }}>
               <strong>Zaliczka 500 zł</strong> – pierwszy krok ku realizacji Twojej wizji

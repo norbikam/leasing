@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className={styles.badge}
           >
-            ✨ Ponad 200 skutecznie zrealizowanych projektów finansowych
+            Ponad 200 skutecznie zrealizowanych projektów finansowych
           </motion.div>
 
           <motion.h1
@@ -64,7 +64,7 @@ const Hero: React.FC = () => {
             className={styles.badge}
             style={{ marginTop: '1.5rem', marginBottom: '1.5rem', background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', fontSize: '1.1rem', padding: '1rem 2rem', color: '#fff' }}
           >
-            🎯 FINANSOWANIE 0% bez ukrytych kosztów na naszą aparaturę zabiegową
+            FINANSOWANIE 0% bez ukrytych kosztów na naszą aparaturę zabiegową
           </motion.div>
 
           <motion.div

@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
             className={styles.title}
           >
-            Finanse medyczne bez granic
+            Finanse bez granic
             <span className={styles.highlight}> – Twoja praktyka, nasze doświadczenie</span>
           </motion.h1>
 
@@ -52,7 +52,7 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className={styles.subtitle}
           >
-            Wspieramy lekarzy i placówki medyczne w pozyskiwaniu finansowania na rozwój praktyki. 
+            Wspieramy lekarzy i kosmetologów w pozyskiwaniu finansowania na rozwój praktyki. 
             Leasing operacyjny, dotacje publiczne i kredyty specjalistyczne – kompleksowe rozwiązania 
             finansowe w jednym miejscu.
           </motion.p>

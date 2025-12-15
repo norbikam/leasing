@@ -18,8 +18,8 @@ const Footer: React.FC = () => {
               <span className={styles.logoText}>Glow Leasing</span>
             </div>
             <p className={styles.description}>
-              Finanse medyczne bez granic – Twoja praktyka, nasze doświadczenie. 
-              Specjalistyczne finansowanie dla lekarzy i placówek medycznych.
+              Finanse bez granic – Twoja praktyka, nasze doświadczenie. 
+              Specjalistyczne finansowanie dla lekarzy i kosmetologów.
             </p>
             <div className={styles.badge} style={{ 
               marginTop: '1rem',
@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
               fontWeight: 'bold',
               color: '#667eea'
             }}>
-              💰 Finansowanie 0% RRSO
+              Finansowanie 0% RRSO
             </div>
             <div className={styles.social}>
               <a href="#" className={styles.socialLink} aria-label="Facebook">
@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
           <div className={styles.column}>
             <h4 className={styles.columnTitle}>Finansowanie</h4>
             <ul className={styles.links}>
-              <li><button onClick={() => scrollToSection('uslugi')} className={styles.link}>Aparatura medyczna 0%</button></li>
+              <li><button onClick={() => scrollToSection('uslugi')} className={styles.link}>Aparatura zabiegowa 0%</button></li>
               <li><button onClick={() => scrollToSection('uslugi')} className={styles.link}>Leasing operacyjny</button></li>
               <li><button onClick={() => scrollToSection('uslugi')} className={styles.link}>Dotacje medyczne</button></li>
               <li><button onClick={() => scrollToSection('uslugi')} className={styles.link}>Program dla młodych lekarzy</button></li>
@@ -72,13 +72,13 @@ const Footer: React.FC = () => {
             <h4 className={styles.columnTitle}>Kontakt</h4>
             <ul className={styles.contactList}>
               <li className={styles.contactItem}>
-                <span>📞</span> +48 510 255 279
+                 +48 510 255 279
               </li>
               <li className={styles.contactItem}>
-                <span>✉️</span> kontakt@glowleasing.pl
+                kontakt@glowleasing.pl
               </li>
               <li className={styles.contactItem}>
-                <span>🔗</span> Partner:<br/>
+                Partner:<br/>
                 <a href="https://gus-medic.pl" target="_blank" rel="noopener noreferrer" 
                    style={{ color: '#667eea', textDecoration: 'none' }}>
                   gus-medic.pl

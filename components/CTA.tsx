@@ -19,7 +19,7 @@ const CTA: React.FC = () => {
           className={styles.content}
         >
           <h2 className={styles.title}>
-            Gotowy na Rozwój Swojej Praktyki Medycznej?
+            Gotowy na Rozwój Swojej Praktyki?
           </h2>
           <p className={styles.subtitle}>
             Kompleksowa analiza możliwości finansowych w 24 godziny
@@ -73,7 +73,7 @@ const CTA: React.FC = () => {
               />
               <select className={styles.input}>
                 <option>Wybierz usługę</option>
-                <option>Finansowanie aparatury medycznej 0%</option>
+                <option>Finansowanie aparatury 0%</option>
                 <option>Leasing operacyjny</option>
                 <option>Dotacje i programy wsparcia</option>
                 <option>Program dla młodych specjalistów</option>

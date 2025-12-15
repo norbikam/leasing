@@ -80,7 +80,7 @@ const Stats: React.FC = () => {
         >
           <h2 className={styles.title}>Liczby Mówią Same Za Siebie</h2>
           <p className={styles.subtitle}>
-            Potwierdzony track record w finansowaniu medycznym
+            Potwierdzony track record w finansowaniu medycznym i kosmetologicznym
           </p>
         </motion.div>
 

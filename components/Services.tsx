@@ -6,7 +6,7 @@ const Services: React.FC = () => {
   const services = [
     {
       icon: '🏥',
-      title: 'Finansowanie Aparatury Medycznej',
+      title: 'Finansowanie Aparatury Zabiegowej',
       description: 'Specjalizujemy się w strukturyzowaniu finansowania na profesjonalną aparaturę zabiegową we współpracy z renomowanym dostawcą gus-medic.pl.',
       features: [
         'Finansowanie 0% RRSO bez ukrytych kosztów', 
@@ -101,9 +101,9 @@ const Services: React.FC = () => {
           transition={{ duration: 0.6 }}
           className={styles.header}
         >
-          <h2 className={styles.title}>Specjalistyczne Finansowanie Medyczne</h2>
+          <h2 className={styles.title}>Specjalistyczne Finansowanie</h2>
           <p className={styles.subtitle}>
-            Nowoczesna medycyna wymaga zaawansowanych rozwiązań technologicznych i finansowych
+            Nowoczesna medycyna i kosmetologia wymaga zaawansowanych rozwiązań technologicznych i finansowych
           </p>
         </motion.div>
 

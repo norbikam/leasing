@@ -84,6 +84,13 @@ const Footer: React.FC = () => {
                   gus-medic.pl
                 </a>
               </li>
+              <li className={styles.contactItem}>
+                Partner:<br/>
+                <a href="https://glowupskin.pl" target="_blank" rel="noopener noreferrer" 
+                   style={{ color: '#667eea', textDecoration: 'none' }}>
+                  glowupskin.pl
+                </a>
+              </li>
             </ul>
           </div>
         </div>

@@ -1,11 +1,19 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { 
+  FaHospital, 
+  FaHandHoldingUsd, 
+  FaGift, 
+  FaFileContract, 
+  FaRocket, 
+  FaChartLine 
+} from 'react-icons/fa';
 import styles from './Services.module.css';
 
 const Services: React.FC = () => {
   const services = [
     {
-      icon: '🏥',
+      icon: <FaHospital />,
       title: 'Finansowanie Aparatury Zabiegowej',
       description: 'Specjalizujemy się w strukturyzowaniu finansowania na profesjonalną aparaturę zabiegową we współpracy z renomowanym dostawcą gus-medic.pl.',
       features: [
@@ -16,7 +24,7 @@ const Services: React.FC = () => {
       ]
     },
     {
-      icon: '💰',
+      icon: <FaHandHoldingUsd />,
       title: 'Leasing Operacyjny',
       description: 'Optymalne rozwiązanie finansowe dla lekarzy dążących do rozwoju praktyki przy zachowaniu płynności finansowej.',
       features: [
@@ -27,7 +35,7 @@ const Services: React.FC = () => {
       ]
     },
     {
-      icon: '🎯',
+      icon: <FaGift />,
       title: 'Dotacje i Programy Wsparcia',
       description: 'Prowadzimy systematyczny monitoring wszystkich programów dotacyjnych dedykowanych branży medycznej.',
       features: [
@@ -38,7 +46,7 @@ const Services: React.FC = () => {
       ]
     },
     {
-      icon: '💎',
+      icon: <FaFileContract />,
       title: 'Warunki Współpracy',
       description: 'Przejrzyste zasady – pełna transparentność procesu finansowania z gwarancją bezpieczeństwa.',
       features: [
@@ -49,7 +57,7 @@ const Services: React.FC = () => {
       ]
     },
     {
-      icon: '🚀',
+      icon: <FaRocket />,
       title: 'Program dla Młodych Specjalistów',
       description: 'Dedykowane warunki preferencyjne dla absolwentów medycyny rozpoczynających praktykę.',
       features: [
@@ -60,7 +68,7 @@ const Services: React.FC = () => {
       ]
     },
     {
-      icon: '📊',
+      icon: <FaChartLine />,
       title: 'Doradztwo Finansowe',
       description: 'Profesjonalna analiza możliwości finansowych i rekomendacja optymalnych instrumentów finansowania.',
       features: [
@@ -129,7 +137,6 @@ const Services: React.FC = () => {
               <ul className={styles.features}>
                 {service.features.map((feature, idx) => (
                   <li key={idx} className={styles.feature}>
-                    <span className={styles.checkmark}>✓</span>
                     {feature}
                   </li>
                 ))}
